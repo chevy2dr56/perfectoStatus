@@ -1,0 +1,8 @@
+#menu
+string_input = id=t1
+update_bt = id=b1
+output_v=id=t2
+incise=id=b2
+indexVal=id=t3
+restet=id=b3
+

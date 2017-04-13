@@ -1,0 +1,4 @@
+ebayApp.search.field = xpath=//*[@resource-id="com.ebay.mobile:id/search_box"]
+ebayApp.search.field.val = xpath=//*[@resource-id="com.ebay.mobile:id/search_src_text"]
+ebayApp.firstResultPrice = xpath=(//*[@resource-id='com.ebay.mobile:id/textview_item_price'])[1]
+ebayApp.buyit.bt=xpath=//*[@resource-id="com.ebay.mobile:id/button_bin"]

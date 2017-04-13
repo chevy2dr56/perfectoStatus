@@ -1,0 +1,53 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Demo Suite" verbose="0" parallel="tests" thread-count="1">
+	<listeners><listener class-name="com.quantum.listerners.QuantumReportiumListener"/></listeners>
+	<test name="ANZ Android ios Test" enabled="false" thread-count="10">
+		<parameter name="driver.capabilities.deviceName" value="C538899C"></parameter>
+		<parameter name="driver.capabilities.appPackage" value="com.anz.android.gomoney"></parameter>
+		<parameter name="driver.capabilities.appActivity" value="com.anz.android.gomoney.controller.GoMoneyActivity"></parameter>
+		<!--parameter name="driver.capabilities.windTunnelPersona" value="Ross"></parameter-->
+
+		<groups>
+			<run>
+				<include name="@anzci" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.test.anz" />
+		</classes>
+	</test>
+	<test name="ANZ Android 2 Test" enabled="true" thread-count="10">
+	<parameter name="driver.capabilities.deviceName" value="02157DF2A1B46C22"></parameter>
+	<parameter name="driver.capabilities.appPackage" value="com.anz.android.gomoney"></parameter>
+	<parameter name="driver.capabilities.appActivity" value="com.anz.android.gomoney.controller.GoMoneyActivity"></parameter>
+
+	<groups>
+		<run>
+			<include name="@anzci" />
+		</run>
+	</groups>
+	<classes>
+		<class
+				name="com.quantum.test.anz" />
+	</classes>
+</test>
+
+
+	<test name="ANZ Android 3 Test" enabled="true" thread-count="10">
+		<parameter name="driver.capabilities.deviceName" value="9EB54791"></parameter>
+		<parameter name="driver.capabilities.appPackage" value="com.anz.android.gomoney"></parameter>
+		<parameter name="driver.capabilities.appActivity" value="com.anz.android.gomoney.controller.GoMoneyActivity"></parameter>
+
+		<groups>
+			<run>
+				<include name="@anzci" />
+			</run>
+		</groups>
+		<classes>
+			<class
+					name="com.quantum.test.anz" />
+		</classes>
+	</test>
+
+</suite>

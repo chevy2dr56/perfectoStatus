@@ -1,0 +1,65 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Demo Suite" verbose="0" parallel="tests" thread-count="100">
+    <listeners>
+        <listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+        <listener class-name="com.quantum.jiraAPI.jiraListener"/>
+
+    </listeners>
+
+
+    <test name="Web Scenarios ios Test" enabled="true" thread-count="10">
+         <parameter name="driver.capabilities.model" value="iPhone.*"></parameter>
+        <groups>
+            <run>
+                <include name="@Huntington_ci2" />
+            </run>
+        </groups>
+        <classes>
+            <class
+                    name="com.quantum.test.Huntington" />
+        </classes>
+    </test>
+
+    <test name="Web Scenarios ios 2" enabled="true" thread-count="10">
+        <parameter name="driver.capabilities.model" value="iPhone.*"></parameter>
+        <groups>
+            <run>
+                <include name="@Huntington_ci2" />
+            </run>
+        </groups>
+        <classes>
+            <class
+                    name="com.quantum.test.Huntington" />
+        </classes>
+    </test>
+
+
+
+    <test name=" Scenarios Android Test" enabled="true" thread-count="10">
+        <parameter name="driver.capabilities.platformName" value="Android"></parameter>
+        <groups>
+            <run>
+                <include name="@Huntington_ci2" />
+            </run>
+        </groups>
+        <classes>
+            <class
+                    name="com.quantum.test.Huntington_android" />
+        </classes>
+    </test>
+
+    <test name="android_2" enabled="true" thread-count="10">
+        <parameter name="driver.capabilities.platformName" value="Android"></parameter>
+        <groups>
+            <run>
+                <include name="@Huntington_ci2" />
+            </run>
+        </groups>
+        <classes>
+            <class
+                    name="com.quantum.test.Huntington_android" />
+        </classes>
+    </test>
+
+
+</suite>

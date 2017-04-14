@@ -52,5 +52,5 @@ public class Huntington_android extends WebDriverTestCase {
 
         DeviceUtils.closeApp("Huntington", "name");
 
-     }
+     }//test
 }

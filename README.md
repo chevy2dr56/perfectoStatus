@@ -196,3 +196,13 @@ Configuration of the [application properties](The application.properties file) a
                     appiumCalc.feature                      # Appium Calculator app test feature file called by testng_appium xml file  
                     webSearch.feature                       # Web Google Search feature file driven by testng_web xml file  
 ``` 
+DOC
+README.md
+img
+logs
+pom.xml
+quantum-starter.iml
+resources
+src
+stepbacklog.log
+target

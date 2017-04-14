@@ -55,7 +55,7 @@ public class Huntington extends WebDriverTestCase {
 
         }
 
-        getDriver().findElement(By.xpath("//UIASecureTextField")).sendKeys("12341234a");
+        getDriver().findElement(By.xpath("//UIASecureTextField")).sendKeys("12341234a"); //skipXpath
         getDriver().findElement(By.xpath("//*[@label=\"Login\"]")).click();
         getDriver().findElement(By.xpath("//*[@label=\"Logout\"]")).click();
 

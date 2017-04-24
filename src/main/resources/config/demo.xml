@@ -29,26 +29,6 @@
 		</classes>
 	</test>
 
-
-
-	<test name="Target-S7" enabled="false" thread-count="10">
-		<!--<parameter name="driver.capabilities.deviceName" value="988667325047395643"></parameter>-->
-		<parameter name="driver.capabilities.model" value="Galaxy S7.*"></parameter>
-
-		<groups>
-			<run>
-				<include name="@sko" />
-			</run>
-		</groups>
-		<classes>
-			<class
-					name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
-		</classes>
-	</test>
-
-
-
-
 	<test name="web" enabled="true" thread-count="10">
 		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
 		<parameter name="driver.capabilities.platformVersion" value="8.1"></parameter>
@@ -67,47 +47,11 @@
 		</classes>
 	</test>
 
-	<test name="web1" enabled="true" thread-count="10">
-		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
-		<parameter name="driver.capabilities.platformVersion" value="8.1"></parameter>
-		<parameter name="driver.capabilities.browserVersion" value="54"></parameter>
-		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
-
-		<groups>
-			<run>
-				<include name="@sko" />
-			</run>
-		</groups>
-		<classes>
-			<class
-					name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
-		</classes>
-	</test>
-
 	<test name="mac1" enabled="true" thread-count="10">
 		<parameter name="driver.capabilities.platformName" value="Mac"></parameter>
 		<parameter name="driver.capabilities.platformVersion" value="macOS Sierra"></parameter>
 		<parameter name="driver.capabilities.browserVersion" value="10"></parameter>
 		<parameter name="driver.capabilities.browserName" value="Safari"></parameter>
-		<parameter name="driver.capabilities.resolution" value="1440x900"></parameter>
-		<parameter name="driver.capabilities.location" value="NA-US-BOS"></parameter>
-
-		<groups>
-			<run>
-				<include name="@sko" />
-			</run>
-		</groups>
-		<classes>
-			<class
-					name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
-		</classes>
-	</test>
-
-	<test name="mac2" enabled="true" thread-count="10">
-		<parameter name="driver.capabilities.platformName" value="Mac"></parameter>
-		<parameter name="driver.capabilities.platformVersion" value="macOS Sierra"></parameter>
-		<parameter name="driver.capabilities.browserVersion" value="54"></parameter>
-		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
 		<parameter name="driver.capabilities.resolution" value="1440x900"></parameter>
 		<parameter name="driver.capabilities.location" value="NA-US-BOS"></parameter>
 

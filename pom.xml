@@ -59,8 +59,6 @@
                     <argLine>-Dfile.encoding=${project.build.sourceEncoding}</argLine>
                     <systemPropertyVariables>
                         <application.properties.file>resources/application.properties.democloud</application.properties.file>
-                        <perfecto.capabilities.user>${env.PERFECTO_USER}</perfecto.capabilities.user>
-                        <perfecto.capabilities.password>${env.PERFECTO_PASS}</perfecto.capabilities.password>
                     </systemPropertyVariables>
 
                     <suiteXmlFiles>

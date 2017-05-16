@@ -33,7 +33,8 @@
 		<parameter name="driver.capabilities.platformName" value="Windows"></parameter>
 		<parameter name="driver.capabilities.platformVersion" value="8.1"></parameter>
 		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
-		<parameter name="driver.capabilities.browserVersion" value="55"></parameter>
+		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
+		<parameter name="driver.capabilities.browserVersion" value="latest"></parameter>
 
 
 		<groups>

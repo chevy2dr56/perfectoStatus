@@ -13,4 +13,4 @@ Feature: Check Perfecto PM site
     Then I click on "main"
     Then I go to services menu
     Then I click on "servicesPage"
-    Then I must see text "PERFECTO SVS"
+    #Then I must see text "PERFECTO SVS"

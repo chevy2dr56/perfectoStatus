@@ -34,7 +34,7 @@
 		<parameter name="driver.capabilities.platformVersion" value="8.1"></parameter>
 		<parameter name="driver.capabilities.browserName" value="Chrome"></parameter>
 		<parameter name="driver.capabilities.resolution" value="1280x1024"></parameter>
-		<parameter name="driver.capabilities.browserVersion" value="latest"></parameter>
+		<parameter name="driver.capabilities.browserVersion" value="55"></parameter>
 
 
 		<groups>
@@ -48,7 +48,7 @@
 		</classes>
 	</test>
 
-	<test name="mac1" enabled="true" thread-count="10">
+	<test name="mac1" enabled="false" thread-count="10">
 		<parameter name="driver.capabilities.platformName" value="Mac"></parameter>
 		<parameter name="driver.capabilities.platformVersion" value="macOS Sierra"></parameter>
 		<parameter name="driver.capabilities.browserVersion" value="10"></parameter>
@@ -67,7 +67,7 @@
 		</classes>
 	</test>
 
-	<test name="Target-Galaxy-Tablet" enabled="true" thread-count="10">
+	<test name="Target-Galaxy-Tablet" enabled="false" thread-count="10">
 		<!--<parameter name="driver.capabilities.deviceName" value="988667325047395643"></parameter>-->
 		<parameter name="driver.capabilities.model" value="Galaxy Tab.*"></parameter>
 
@@ -82,7 +82,7 @@
 		</classes>
 	</test>
 
-	<test name="Target-iPad-Tablet" enabled="true" thread-count="10">
+	<test name="Target-iPad-Tablet" enabled="false" thread-count="10">
 		<!--<parameter name="driver.capabilities.deviceName" value="988667325047395643"></parameter>-->
 		<parameter name="driver.capabilities.model" value="iPad Air.*"></parameter>
 

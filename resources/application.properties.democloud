@@ -15,7 +15,7 @@ step.provider.pkg=com.quantum.steps
 cucumber.run.mode=true
 #[selenium]
 #TODO
-remote.server=https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/fast
+#remote.server=https://demo.perfectomobile.com/nexperience/perfectomobile/wd/hub/fast
 remote.port=80
 driver.name=perfectoRemoteDriver
 #driver.pluginType=intellij

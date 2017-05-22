@@ -43,7 +43,7 @@ public class Huntington_android extends WebDriverTestCase {
         //   getDriver().findElement(By.xpath("//*[@value=\"Username\"]")).sendKeys("qajan2017");
         getDriver().findElement(By.xpath("(//*[contains(@content-desc,'Edit Box UsernameDouble tap to edit Username')])[1]")).sendKeys("qajan2017");
 
-        getDriver().findElement(By.xpath("//*[@content-desc=\"Password, secure text field Double tap to edit\"]")).sendKeys("12341234a"); 
+        getDriver().findElement(By.xpath("//*[@content-desc=\"Password, secure text field Double tap to edit\"]")).sendKeys("12341234a");
         getDriver().findElement(By.xpath("//*[@text=\"Login\"]")).click();
         getDriver().findElement(By.xpath("//*[@text=\"Logout\"]")).click();
         getDriver().findElement(By.xpath("//*[@resource-id=\"android:id/button1\"]")).click();

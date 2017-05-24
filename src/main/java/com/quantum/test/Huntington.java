@@ -45,7 +45,7 @@ public class Huntington extends WebDriverTestCase {
 
         //works
         try {
-            getDriver().findElement(By.xpath("(//UIATextField[@value=\"Username\" and @visible='true'])")).sendKeys("qajan2017");
+            getDriver().findElement(By.xpath("(//UIATextField[@value=\"Username\" and @visible='true'])")).sendKeys("qajan2017");//skipXpath
 
         }catch (NoSuchElementException e)
         {
